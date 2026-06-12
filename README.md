@@ -2,6 +2,16 @@
 
 Flutter POC for a Blender to mobile 3D asset pipeline.
 
+## Demo
+
+Real captures from the running app on the iOS Simulator (no mockups). See [FLOW.md](FLOW.md) for how they were generated.
+
+| Pipeline overview | Live shader scene | GPU budget panel |
+| --- | --- | --- |
+| ![Home](screenshots/01-home.png) | ![Live scene](screenshots/02-live-scene.png) | ![GPU budgets](screenshots/03-gpu-budgets.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## What this demonstrates
 
 - Custom GLSL fragment shader loaded via Flutter's native Fragment Shader API (available since Flutter 3.7)

@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/perf_provider.dart';
 
 const _fpsTarget = 60;
-const _maxTriangles = 150_000;
+const _maxTriangles = 150000;
 const _maxDrawCalls = 60;
 const _maxTextureMB = 32;
 

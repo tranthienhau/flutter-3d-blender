@@ -35,7 +35,7 @@ class GltfLoader {
     await Future<void>.delayed(const Duration(milliseconds: 200));
     return const GltfMeshDescriptor(
       name: 'butterfly.glb',
-      triangleCount: 42_180,
+      triangleCount: 42180,
       textureBytes: 4 * 1024 * 1024, // 4 MB of compressed BC7 textures
       drawCalls: 3,
       hasSkeleton: true,
